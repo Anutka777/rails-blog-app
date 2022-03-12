@@ -2,6 +2,8 @@
 
 <p><%= @article.body %></p>
 
+<hr>
+
 <ul>
   <li><%= link_to "Edit this Article", edit_article_path(@article) %></li>
   <li><%= link_to "Destroy this Article", article_path(@article), data: {
@@ -11,8 +13,12 @@
   <li><%= link_to "Go to index", articles_path%></li>
 </ul>
 
+<hr>
+
 <h2>Comments</h2>
 <%= render @article.comments %>
+
+<hr>
 
 <h2>Add a comment</h2>
 <%= render 'comments/form' %>
