@@ -1,24 +1,11 @@
-# README
+# Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blog application with basic functionality, implemented using Ruby-on-Rails.
 
-Things you may want to cover:
+**FEATURES:**
 
-* Ruby version
+* You can create veiw articles and add comments to them.
 
-* System dependencies
+* You can authorize using login: *dhh* and password: *secret*
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* As an autorized user you also can edit and delete articles and delete any comments.
